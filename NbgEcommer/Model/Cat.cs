@@ -17,6 +17,9 @@ namespace NbgEcommerce
             return "Miau I am " + Name;
         }
 
-       
+       public void Walk()
+        {// to be changed using logger
+            Console.WriteLine( Name + " is walking");
+        }
     }
 }
